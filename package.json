@@ -1,0 +1,36 @@
+{
+  "name": "pptx-color-editor",
+  "version": "1.0.0",
+  "description": "Edit theme colors in a .pptx file right in your browser",
+  "main": "dist/pptx-color-editor.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balbuf/pptx-color-editor.git"
+  },
+  "keywords": [
+    "powerpoint",
+    "theme",
+    "color",
+    "editor"
+  ],
+  "author": "balbuf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balbuf/pptx-color-editor/issues"
+  },
+  "homepage": "https://github.com/balbuf/pptx-color-editor#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "file-saver": "^1.3.3",
+    "jszip": "^3.1.3"
+  }
+}
