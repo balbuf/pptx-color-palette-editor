@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
 					file.xml = parser.parseFromString(content, 'text/xml');
 
 					// process each clrScheme element
-					Array.prototype.forEach.call(file.xml.getElementsByTagName('clrScheme'), function(scheme) {
+					Array.prototype.forEach.call(file.xml.getElementsByTagNameNS('*', 'clrScheme'), function(scheme) {
 						// create a header for the color scheme
 						const header = document.createElement('h3');
 						header.textContent = scheme.getAttribute('name');
