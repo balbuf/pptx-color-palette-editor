@@ -4,7 +4,7 @@ const config = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'pptx-color-editor.bundle.js'
+    filename: 'pptx-color-palette-editor.bundle.js'
   },
   module: {
     rules: [
