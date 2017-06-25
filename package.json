@@ -1,5 +1,5 @@
 {
-  "name": "pptx-color-editor",
+  "name": "pptx-color-palette-editor",
   "version": "1.0.0",
   "description": "Edit theme colors in a .pptx file right in your browser",
   "main": "dist/pptx-color-editor.bundle.js",
@@ -15,14 +15,15 @@
     "powerpoint",
     "theme",
     "color",
+    "palette",
     "editor"
   ],
   "author": "balbuf",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/balbuf/pptx-color-editor/issues"
+    "url": "https://github.com/balbuf/pptx-color-palette-editor/issues"
   },
-  "homepage": "https://github.com/balbuf/pptx-color-editor#readme",
+  "homepage": "https://github.com/balbuf/pptx-color-palette-editor#readme",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
